@@ -5,7 +5,7 @@
 Write a simple game from scratch using the minimum required libraries.
 
 ### Non-standard libraries used
-- [**GLEW**](https://glew.sourceforge.net/): A cross-platform open-source extension loading library. In short, it loads the OpenGL extensions (funtions, variales) into our project. (_Note that OpenGL is not a library, but a specificacion that hardware drivers use_)
+- [**GLEW**](https://glew.sourceforge.net/): A cross-platform open-source extension loading library. In short, it loads the OpenGL extensions (funtions, variales) into our project and tells us if the functions are available in our platform. (_Note that OpenGL is not a library, but a specificacion that hardware drivers use_)
 - [**GLFW**](https://www.glfw.org/): A cross-platform open-source API that handles the basics of windows, contexts, receiving input and OS events. Basically necesary for windows, since programs don't have low level access to the OS.
 
 
@@ -32,5 +32,6 @@ Packages installed:
 - **GLEW**: ```pacman -S mingw-w64-ucrt-x86_64-glew```
 - **GLFW**: ```pacman -S mingw-w64-ucrt-x86_64-glfw```
 
+> CMake side note: You can find the CMake variables you need to use in the FindX.cmake file.
 
 
