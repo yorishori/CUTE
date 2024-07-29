@@ -34,4 +34,7 @@ Packages installed:
 
 > CMake side note: You can find the CMake variables you need to use in the FindX.cmake file.
 
+# Useful Docs
+[OpenGL](https://docs.gl)
+
 
